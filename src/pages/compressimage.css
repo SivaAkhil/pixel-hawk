@@ -1,0 +1,32 @@
+.compress-container{
+  width: 90%;
+  box-shadow:0 0 1rem 0 rgba(0,0,0,0.2);
+  background-color:rgba(255,255,255,0.15);
+  backdrop-filter:blur(40px);
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.compress-preview-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.compress-upload-preview{
+  width: 90%;
+  max-width: 500px;
+  max-height: 400px;
+  border: solid 5px grey;
+}
+
+.compress-options-container{
+  text-align: center;
+}
+
+.compress-submit-btn{
+  margin-top: 10px;
+  width: 70px;
+  margin-bottom: 20px;
+}

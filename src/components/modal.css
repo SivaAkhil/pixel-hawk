@@ -1,0 +1,39 @@
+.modal-container{
+  position:fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  background-color: red;
+}
+
+.modal-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 80%;
+}
+
+.modal-img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.modal-close-btn{
+  display: block;
+  margin:10px auto;
+  width: 100px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+
+
